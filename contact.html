@@ -13,6 +13,7 @@
 
   <link rel="icon" href="white-circle-mark.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
+  <script src="contact.js" defer></script>
 
 </head>
 <body>
@@ -38,9 +39,40 @@
 <section class='wrap section'>
 <div class='grid two'>
 <div class='contact-preview'>
-<h2>Email your enquiry</h2>
-<p>Tell us your business name, your current website if you have one, and what you’d like help with.</p>
-<a class='button' href='mailto:hello@hikoidigital.com'>Email Hīkoi Digital</a>
+<form id='enquiry' action='https://api.web3forms.com/submit' method='post'>
+<fieldset disabled aria-describedby='form-note'>
+<legend>Your enquiry</legend>
+<input type='hidden' name='access_key' value='918de67d-4eaa-4af1-ad18-98ad43d4bbaf'>
+<input type='hidden' name='subject' value='Hīkoi Digital website enquiry'>
+<label for='name'>Your name</label>
+<input id='name' name='name' autocomplete='name' required>
+<label for='email'>Email address</label>
+<input id='email' name='email' type='email' autocomplete='email' required>
+<label for='business'>Business name</label>
+<input id='business' name='business' autocomplete='organization' required>
+<label for='town'>Which town are you in?</label>
+<select id='town' name='town'>
+<option>Gold Coast</option>
+<option>Brisbane</option>
+<option>Hervey Bay</option>
+<option>Bundaberg</option>
+<option>Somewhere else in Queensland</option>
+</select>
+<label for='package'>Which package sounds closest?</label>
+<select id='package' name='package'>
+<option>Not sure yet</option>
+<option>Simple Start — one page, from $450</option>
+<option>Multi-Page — 3–5 pages, from $900</option>
+</select>
+<label for='site'>Current website (optional)</label>
+<input id='site' name='website' type='url' autocomplete='url' placeholder='https://example.com'>
+<label for='message'>What would you like help with?</label>
+<textarea id='message' name='message' rows='4' required></textarea>
+<p id='form-note'>We use your details to respond to your enquiry. This form uses Web3Forms to deliver your message to us.</p>
+<button type='submit'>Send enquiry</button>
+</fieldset>
+<p id='enquiry-status' role='status'></p>
+</form>
 </div>
 <div>
 <h2>What happens next</h2>
