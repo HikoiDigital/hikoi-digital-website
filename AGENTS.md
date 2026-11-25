@@ -9,7 +9,7 @@
 ## The site
 - Simple, static HTML site. Keep it simple — do not add complexity, frameworks, or extra pages without Heidi asking.
 - Keep the original look: teal #0e4a5a, green #27704f, mist #e4f1ec, gold #f2c66d, ink #0b2a33. Big titles, easy-to-read type, separated boxes, visual space.
-- Main navigation, in this order: Home, Packages & Pricing, Why Hīkoi?, Frequently Asked Questions, Get Started.
+- Main navigation, in this order: Home, Packages & Pricing, Why Hīkoi?, FAQs, Get Started.
 - Footer on every page must keep: Hīkoi Digital, ABN 75 947 358 191, Coastal Queensland, Australia, hello@hikoidigital.com.
 
 ## Prices and facts — do not change these
