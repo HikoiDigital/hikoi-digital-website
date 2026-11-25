@@ -30,6 +30,10 @@
 
   <link rel="icon" href="white-circle-mark.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .town-links { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .town-links .button { min-height: 2.5rem; margin-top: 0; padding: .35rem .75rem; font-size: .95rem; }
+  </style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -81,7 +85,11 @@
 <section class='wrap section'>
 <h2>Where we work</h2>
 <p>Hīkoi Digital builds websites for small businesses along the Queensland coast, from the Gold Coast to Bundaberg.</p>
-<p><a href='gold-coast.html'>Gold Coast</a> · <a href='brisbane.html'>Brisbane</a> · <a href='sunshine-coast.html'>Sunshine Coast</a> · <a href='hervey-bay.html'>Hervey Bay</a> · <a href='bundaberg.html'>Bundaberg</a></p>
+<p class='town-links'><a class='button' href='gold-coast.html'>Gold Coast</a>
+<a class='button' href='brisbane.html'>Brisbane</a>
+<a class='button' href='sunshine-coast.html'>Sunshine Coast</a>
+<a class='button' href='hervey-bay.html'>Hervey Bay</a>
+<a class='button' href='bundaberg.html'>Bundaberg</a></p>
 </section>
   </main>
   <footer><div class="wrap"><span>Hīkoi Digital · ABN 75 947 358 191</span><span class="footer-location">Coastal Queensland, Australia</span></div></footer>
