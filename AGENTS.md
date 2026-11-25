@@ -17,7 +17,7 @@
 - Multi-Page: 3–5 pages, $900 fixed, 2 revision rounds.
 - Both include some copy and photo work, an enquiry form or booking link, and handover. 14 days email help after handover.
 - Domain and hosting are paid separately by the client. Clients own their own domain and hosting.
-- Service area: Gold Coast to Bundaberg, Queensland, including Hervey Bay and Brisbane. Australia only — no New Zealand content.
+- Service area: Gold Coast to Bundaberg, Queensland, including Brisbane, Sunshine Coast and Hervey Bay. Australia only — no New Zealand content.
 - Tagline: "Your digital journey, together" — hīkoi means "to walk" in te reo Māori; we walk alongside you.
 
 ## How to work
