@@ -21,6 +21,7 @@
 - Tagline: "Your digital journey, together" — hīkoi means "to walk" in te reo Māori; we walk alongside you.
 
 ## How to work
+- When writing or editing website copy, treat rough notes from Heidi or Muse as a brief. Polish the requested copy in Heidi’s voice so it reads clearly and naturally for the site’s audience. Preserve the intended meaning and confirmed facts, use exact wording when requested, and show Heidi the final wording. Keep layout-only edits to layout.
 - Make one small, checkable change at a time. Do not do a full rebuild.
 - Do not invent business names, prices, services, phone numbers, emails, or links for Heidi, her family, or example businesses.
 - If a change affects prices, the contact form, or the navigation, say so clearly in your summary.
