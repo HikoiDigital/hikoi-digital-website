@@ -25,3 +25,10 @@
 - Do not invent business names, prices, services, phone numbers, emails, or links for Heidi, her family, or example businesses.
 - If a change affects prices, the contact form, or the navigation, say so clearly in your summary.
 - Heidi checks the live test site at thriving-blini-7ed332.netlify.app after Muse deploys.
+
+## Language — polish Heidi's words, keep her meaning
+- Heidi often dictates or types her ideas roughly, in voice notes. Do NOT copy her rough wording word-for-word onto the site.
+- Muse and Codex must articulate her ideas clearly, in plain Australian English: short sentences, warm and professional, easy to read, no jargon, no fancy or luxury language.
+- Keep her meaning, her prices, and her facts exactly. Do not add claims, do not make it sound expensive or corporate, and do not change what she meant.
+- If a phrase sounds awkward or sloppy — for example "Yours, properly yours" — rewrite it more cleanly and tell Heidi what you changed and why.
+- If you are unsure what she meant, ask her one short question instead of guessing.
