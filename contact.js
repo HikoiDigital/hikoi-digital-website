@@ -32,4 +32,15 @@ enquiryForm.addEventListener('input', () => {
   enquiryStatus.textContent = '';
 });
 
+const packageSelect = enquiryForm.querySelector('#package');
+const packageOptions = new Map([
+  ['simple-start', 'Simple Start — one page, from $450'],
+  ['multi-page', 'Multi-Page — 3–5 pages, from $900'],
+]);
+const requestedPackage = new URLSearchParams(window.location.search).get('package');
+const packageValue = packageOptions.get(requestedPackage);
+if (packageValue && Array.from(packageSelect.options).some(option => option.value === packageValue)) {
+  packageSelect.value = packageValue;
+}
+
 enquiryFields.disabled = false;

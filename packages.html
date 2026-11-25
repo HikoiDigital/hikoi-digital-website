@@ -13,6 +13,17 @@
 
   <link rel="icon" href="white-circle-mark.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .package-card { display: flex; flex-direction: column; align-items: flex-start; }
+    .package-card ul { margin-bottom: auto; }
+    .package-ownership { margin-top: 2rem; }
+    .package-groups { margin-top: 1.2rem; }
+    .package-groups .package-steps { margin-top: .75rem; }
+    .package-steps h4 { margin: 0; font: 600 1.28rem/1.14 Outfit, system-ui, sans-serif; text-wrap: balance; }
+    @media (width > 62rem) {
+      .package-groups .package-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+  </style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -37,9 +48,10 @@
 </section>
 <section class='wrap section'>
 <div class='grid two'>
-<article>
+<article class='package-card'>
 <h2>Simple Start</h2>
 <p class='price'>A$450 fixed build fee</p>
+<p><strong>Best for:</strong> a business that just needs the essentials on one page.</p>
 <p>Give customers the essentials about your business and an easy way to get in touch.</p>
 <ul>
 <li>1 page</li>
@@ -48,10 +60,12 @@
 <li>One revision round</li>
 <li>Website handover</li>
 </ul>
+<a class='button' href='contact.html?package=simple-start'>Get started with Simple Start</a>
 </article>
-<article>
+<article class='package-card'>
 <h2>Multi-Page</h2>
 <p class='price'>A$900 fixed build fee</p>
+<p><strong>Best for:</strong> a business that needs separate pages for services, photos or more detail.</p>
 <p>Give your business and services more room, with clear navigation between pages.</p>
 <ul>
 <li>3–5 pages</li>
@@ -60,16 +74,31 @@
 <li>Two revision rounds</li>
 <li>Website handover</li>
 </ul>
+<a class='button' href='contact.html?package=multi-page'>Get started with Multi-Page</a>
 </article>
 </div>
+<section class='package-ownership measure' aria-labelledby='ownership-heading'>
+<h2 id='ownership-heading'>Yours, properly yours.</h2>
+<p>There's a little setup involved — your domain and hosting are in your name, not ours — and that's the point. No lock-in, no monthly tie to us, nothing to untangle later. When we hand it over, it's yours.</p>
+</section>
 <section class='package-process' aria-labelledby='process-heading'>
 <h2 id='process-heading'>From quote to handover</h2>
-<ol class='grid package-steps'>
-<li><span class='step-number' aria-hidden='true'>1</span><div><h3>Agree on costs</h3><p>We confirm the fixed build fee and any separate costs upfront.</p></div></li>
-<li><span class='step-number' aria-hidden='true'>2</span><div><h3>Share a few notes</h3><p>Fill in a short form. We turn your answers into website copy.</p></div></li>
-<li><span class='step-number' aria-hidden='true'>3</span><div><h3>Review your draft</h3><p>Check the details and send your changes before the site goes live.</p></div></li>
-<li><span class='step-number' aria-hidden='true'>4</span><div><h3>Get your site</h3><p>We show you how to log in. Email help is included for 14 days.</p></div></li>
+<div class='grid two package-groups'>
+<section aria-labelledby='project-hub-heading'>
+<h3 id='project-hub-heading'>Your Project Hub</h3>
+<ol class='grid package-steps' role='list'>
+<li><span class='step-number' aria-hidden='true'>1</span><div><h4>Agree on costs</h4><p>We confirm the fixed build fee and any separate costs upfront.</p></div></li>
+<li><span class='step-number' aria-hidden='true'>2</span><div><h4>Share a few notes</h4><p>Fill in a short form. We turn your answers into website copy.</p></div></li>
 </ol>
+</section>
+<section aria-labelledby='handover-walkthrough-heading'>
+<h3 id='handover-walkthrough-heading'>Your Handover Walkthrough</h3>
+<ol class='grid package-steps' role='list' start='3'>
+<li><span class='step-number' aria-hidden='true'>3</span><div><h4>Review your draft</h4><p>Check the details and send your changes before the site goes live.</p></div></li>
+<li><span class='step-number' aria-hidden='true'>4</span><div><h4>Get your site</h4><p>We show you how to log in. Email help is included for 14 days.</p></div></li>
+</ol>
+</section>
+</div>
 <div class='package-answers'>
 <details>
 <summary>Photos, galleries and extra costs</summary>
